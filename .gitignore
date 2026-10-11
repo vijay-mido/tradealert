@@ -1,0 +1,44 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+!*.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Node / React
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Editors / operating system
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local database exports
+*.sql
+*.dump
+*.backup
